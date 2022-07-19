@@ -1,0 +1,59 @@
+body{
+     margin : 0;
+     padding :0;
+     display : grid;
+     background : #f8f8f8;
+     place-items : center;
+     min-height : 100vh;
+}
+
+.container{
+     position : relative;
+     width: 800px;
+     height: 800px;
+     /* background : fuchsia ; */
+     box-shadow : 10px 10px 10px rgba(0,0,0,.1), 
+               -10px -10px 10px rgba(255,255,255,.1),
+               inset 10px 10px 10px rgba(0,0,0,.1),
+               inset -10px -10px 10px rgba(255,255,255,1);
+
+     border-radius : 10px;
+     display : flex ;
+     justify-content:  center;
+     align-items: center;  
+           font-size:xx-large;
+}
+
+.container #dycalendar{
+     width : 100%;
+     padding : 20px;
+}
+
+#dycalendar table{
+     width : 100%;
+     margin-top: 40px;
+}
+
+#dycalendar table td{
+     font-weight : 700;
+     color : #444;
+     padding : 25px;
+
+}
+
+#dycalendar table td:hover{
+     background-color: #444;
+     color: #f8f8f8;
+}
+
+
+#dycalendar .dycalendar-header{
+     margin-top : 20px;
+     font-weight : 700;
+     color: #444;
+}
+
+#dycalendar .dycalendar-target-date{
+     color: #f8f8f8;
+     background: #444;
+}
